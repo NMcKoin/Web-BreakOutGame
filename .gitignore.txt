@@ -1,4 +1,24 @@
-# Ignore node_modules
+# Ignore Visual Studio temporary files, build results, and
+# user-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore Visual Studio Code temporary files, build results, and
+# user-specific files
+.vscode/
+
+# Ignore Visual Studio workspace state
+.vs/
+.vsworkspacestate.json
+
+# Ignore other configuration and index files
+config
+filecontentindex
+
+# Ignore Node.js dependencies
 node_modules/
 
 # Ignore logs
@@ -13,7 +33,6 @@ dist/
 build/
 
 # Ignore IDE specific files
-.vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
